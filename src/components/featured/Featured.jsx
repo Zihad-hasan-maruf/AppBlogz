@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./featured.module.css";
 import Image from "next/image";
-import Sliding from "../SlidingImages/Sliding";
 
 const Featured = () => {
   return (
@@ -24,7 +23,6 @@ const Featured = () => {
           <button className={styles.button}>Read More</button>
         </div>
       </div>
-      <Sliding/>
     </div>
   );
 };
